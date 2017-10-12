@@ -6,11 +6,13 @@ document.addEventListener("deviceready", onDeviceReady, false); //Event listener
 		
 	
 function updateDisplay() {
-	$("#launched").text("Application launched: " + launched_count);
+	/*$("#launched").text("Application launched: " + launched_count);
 	$("#resumed").text("Application paused: " + paused_count);
-	$("#paused").text("Application resumed: " + resumed_count); //A fucntion to update the display when an event happens
+	$("#paused").text("Application resumed: " + resumed_count); //A fucntion to update the display when an event happens*/
 	
-	document.getElementById ("pausedTest").innerHTML = "Application paused: " + paused_count;
+	document.getElementById ("launched").innerHTML = "Application launched: " + launched_count;
+	document.getElementById ("resumed").innerHTML = "Application paused: " + paused_count;
+	document.getElementById ("paused").innerHTML = "Application resumed: " + resumed_count;
 }
 
 
