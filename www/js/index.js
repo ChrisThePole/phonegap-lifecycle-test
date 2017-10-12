@@ -2,7 +2,7 @@ var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
 
-document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("deviceready", onDeviceReady, false); //Event listener added to run app once the device is ready
 		
 	
 function updateDisplay() {
