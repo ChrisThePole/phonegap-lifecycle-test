@@ -10,7 +10,7 @@ function updateDisplay() {
 	$("#resumed").text("Application paused: " + paused_count);
 	$("#paused").text("Application resumed: " + resumed_count); //A fucntion to update the display when an event happens
 	
-	document.getElementById ("paused").innerHTML = "Application paused: " + paused_count;
+	document.getElementById ("pausedTest").innerHTML = "Application paused: " + paused_count;
 }
 
 
